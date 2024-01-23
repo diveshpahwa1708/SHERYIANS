@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+nav h4{
+    font-size: 2rem;
+}
+.pg1{
+    width: 100%;
+    height: 90vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 5%;
+
+}
+.img1{
+    height: 22rem;
+    width: 17rem;
+position: relative;
+bottom: 10%;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+}
+.pg1 h3{
+    font-size: 2rem;
+    letter-spacing: -.1vw;
+}
+.pg1 p{
+    font-size: 1.4rem;
+    margin: 1.2rem 0;
+    font-weight: 500;
+}
+.img2{
+    height: 40rem;
+    width: 30rem;
+    
+
+}
+.pg1 .img2{
+    position: relative;
+    bottom: 20%;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+.pg1 h1{
+    font-size: 5rem;
+    position: relative;
+    top: 4rem;
+    right: 4rem;
+    letter-spacing: -.2vw;
+    width: 23rem;
+    font-weight: 500;
+}
+.pg1 .img2 p{
+    width: 60%;
+    font-weight: 500;
+    font-size: 1.3vw;
+letter-spacing: -.05vw;
+
+}
+.div3{
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.div3 i{
+    border-radius: 50%;
+    
+}
+.icon{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.pg1 h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.pg2{
+    width: 100%;
+    height: 50vh;
+    padding: 5%;
+}
+.pg2 h3{
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: grey;
+    letter-spacing: -.05vw;
+
+}
+.pg2 p{
+    font-size: 2.5rem;
+    text-align: end;
+    margin-top: 5%;
+    width: 60%;
+    font-weight: 600;
+    line-height: 4rem;
+    letter-spacing: -.1vw;
+}
+.paradiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+}
+.pg2 p span{
+    height: 6rem;
+    width: 7rem;
+    border-radius: 50px;
+    background-color: red;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+
+}
+.one{
+    background-image: url(images/bluegirl.jpg);
+}
+.two{
+    background-image: url(images/shaljam.jpg);
+}
+.three{
+    background-image: url(images/grass.jpg);
+}
+.pg3{
+    width: 100%;
+    height: 108vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pg3 .img1{
+    height: 37rem;
+    width: 30rem;
+}
+.pg3 .img2{
+    height: 57rem;
+    width: 40rem;
+}.pg3 h3{
+    font-size: 3rem;
+    margin: 2rem 0;
+    letter-spacing: -.1vw;
+
+}
+.pg3 p{
+    font-size: 1.8rem;
+    width: 70%;
+    font-weight: 550;
+    letter-spacing: -.05vw;
+
+}
+.pg4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+margin-top: 10%;
+}
+.pg4 .img{
+    height: 85%;
+    width: 60%;
+    background-color: red;
+ 
+}
+.pg4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pg4 h1{
+    font-size: 3vw;
+    width: 20%;
+    letter-spacing: -.15vw;
+    line-height: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+.pg4 p{
+    font-size: 2rem;
+    font-weight: 550;
+    width: 45%;
+}.pg4 .right{
+    height: 85%;
+    width: 40%;
+
+ display: flex;
+ flex-direction: column;
+ padding-left: 10%;
+ justify-content: center;
+}
+.pg5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pg5 h1{
+    font-size: 2.4vw;
+    letter-spacing: -.15vw;
+}
+.pg5 button{
+    font-size: 1.3vw;
+    padding: 1.3rem 2rem;
+    border-radius: 50px;
+    border: 1.3px solid black;
+    background: transparent;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.pg5 video{
+opacity: 0;
+    position: absolute;
+    z-index: -9;
+    height: 0;
+    width: 0;
+}
+.ftext{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
